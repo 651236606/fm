@@ -74,11 +74,11 @@ class Player {
 
   private initializeConfig() {
     return {
-      siteTitle: "Rynkis' FM",
+      siteTitle: "乐随享音乐电台",
       volume: mobile() ? 1 : 0.5,
       expire: DEFAULT_EXPIRE_TIME,
       localName: LOCAL_STORAGE_KEY,
-      source: 'https://github.com/Shy07/fm.rynkis.com',
+      source: 'https://github.com/651236606/fm',
       music: '/api/music',
       lyrics: '/api/lyrics',
       playlist: '/api/playlist'
